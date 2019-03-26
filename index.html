@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Organic Farmfood </title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="application/javascript"></script>
+  <script src="bootstrap/bootstrap.min.js" type="application/javascript"></script>
+  <script src="js/main.js" type="application/javascript"></script>
+  <link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="styles-css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<div id="cart"></div>
+<div id="products"></div>
+</div>
+<div class="modal-overlay" data-close>
+  <div class="modal-body">
+    <button data-close type="button" class="btn btn-success">Close</button>
+    <h2 class="text-order">Make out your order</h2>
+    <form>
+      <label for="name"> Your name
+        <input type="text" id="name" name="name"></label>
+      <label for="email">Your email
+        <input type="email" id="email" name="email"></label>
+      <label for="phone">Your phone
+        <input type="tel" id="phone" name="phone"></label>
+      <input type="button" class="btn-submit btn btn-success" value="submit">
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
